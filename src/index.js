@@ -15,7 +15,8 @@ const getSchedule = (filename) => {
         obj[day].push([TotalBegin,TotalEnd])
       })      
       const timeSlot = (reccursive([1,0]))
-      return transformResponse(timeSlot)
+      return null
+      // return transformResponse(timeSlot)
   }else{
     throw("bad file")
     return;
