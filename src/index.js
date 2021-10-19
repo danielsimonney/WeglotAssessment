@@ -23,7 +23,7 @@ const getSchedule = (filename) => {
 };
 
 let res = getSchedule("input1.txt");
-
+console.log(res);
 
 function transformHour(nbMin) {
   let hours =8+Math.floor(nbMin/60)
